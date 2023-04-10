@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #2F2F2F;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.big-box {
+  width: 600px;
+  margin-top: 100px;
+  background-color: yellow;
+  padding: 50px;
+}
+.text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reset-form {
+  background-image: url("./images/x.svg");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  background-position: center center;
+  border: none;
+}
+.info-wrapper {
+  position: relative;
+ width: 600px;
+ background-color: #fff;
+ margin-top: 95px;
+ margin-bottom: 50px;
+ padding: 80px 20px 30px 20px;
+}
+.avatar-img {
+  position: absolute;
+  top: -65px;
+  border-radius: 50%;
+
+}
+.user-label {
+  color: #000;
+  opacity: 0.5;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 15px;
+}
+::placeholder {
+  color: #000;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.user-input {
+  width: 100%;
+  border: none;
+  margin-bottom: 8px;
+  padding: 10px;
+  padding-left: 0;
+  border-bottom: 1px solid #bebbbb;
+  resize: vertical;
+}
+.surname-wrapper {
+  display: flex;
+  border-bottom: 1px solid #bebbbb;
+  margin-bottom: 8px;
+  
+}
+
+.wrapper-first-username {
+  margin-right: 100px;
+}
+.first__name {
+  border: none;
+}
+.wrapper-links {
+  display: flex;
+  justify-content: flex-end;
+}
+.cancel-btn {
+  border: none;
+  margin-right: 35px;
+  background-color: transparent;
+  color: #000;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 500;
+}
